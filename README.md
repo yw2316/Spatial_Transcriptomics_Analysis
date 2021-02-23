@@ -1,10 +1,10 @@
-# scRNAseq-template
+# Spatial Transcriptomics pipeline
 
-Workshop on reproducible research practices and RMarkdown, focusing on HTML output, initially presented at ISU presentation on July 2020.
+Workshop on reproducible research practices and RMarkdown, focusing on HTML output.
 
 ## How to use this repository
 
-GitHub for this templtate: [Click here to open](https://github.com/Wang-Cankun/scRNAseq-template)
+GitHub for this template: [Click here to open](https://github.com/yw2316/Spatial_Transcriptomics_Analysis)
 
 ### 1. Step 1: Download the whole repository.
 
@@ -14,12 +14,8 @@ GitHub for this templtate: [Click here to open](https://github.com/Wang-Cankun/s
 
 You will find these files in your directory
 
-- count-data-scrna.csv: example gene expression matrix file.
-- col-data-scrna.csv: example gene metadata file.
-- scrnaseq_template_html.rmd: Rmarkdown template to generate HTML report.
-- scrnaseq_template_html.html: Example HTML report.
-- scrnaseq_template_pdf.rmd: Rmarkdown template to generate PDF report.
-- scrnaseq_template_pdf.html: Example PDF report.
+- ST_pipeline.rmd: Rmarkdown template to generate HTML report.
+- ST_pipeline.html: Example HTML report.
 
 ### 3. Step 3 (in Rmarkdown template): Change the working directory to your local directory.
 

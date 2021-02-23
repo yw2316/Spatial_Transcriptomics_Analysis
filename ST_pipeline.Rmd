@@ -79,10 +79,10 @@ InstallData("stxBrain")
 
 #link
 if (!file.exists("allen_cortex.rds")){
-  download.file("link")
+  download.file("https://www.dropbox.com/s/cuowvm4vrf65pvq/allen_cortex.rds?dl=1")
 }
 
-allen_reference <- readRDS("/fs/project/PAS1475/YiWang/Yi1/Test/allen_cortex.rds")
+allen_reference <- readRDS("allen_cortex.rds")
 ```
 
 Load data into Seurat object.
